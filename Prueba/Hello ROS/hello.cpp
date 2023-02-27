@@ -1,15 +1,16 @@
-// This i s a ROS version of the standard " h e l l o , world" program .
+// This is a ROS version of the standard " hello, world" program
 
-// This header defines the standard ROS c l a s s e s .
-#i n c l u d e <r o s / r o s . h>
+// This header defines the standard ROS classes
+#include <ros/ros.h>
 
-i n t main ( i n t a r g c , c h a r ∗∗ a r g v ) {
-  // I n i t i a l i z e the ROS system .
-  r o s : : i n i t ( a r g c , argv , " h e l l o _ r o s " ) ;
+int main(int argc, char **argv) 
+{
+  // Initialize the ROS system
+  ros::init(argc, argv, "hello");
 
-  // E s t a b l i s h t h i s program as a ROS node .
-  r o s : : NodeHandle nh ;
+  // Establish this program as a ROS node
+  ros::NodeHandle nh;
 
-  // Send some output as a l o g message .
-  ROS_INFO_STREAM( " H e l l o , ␣ROS ! " ) ;
+  // Send some output as a log message .
+  ROS_INFO_STREAM("Hello, ROS!");
 }
