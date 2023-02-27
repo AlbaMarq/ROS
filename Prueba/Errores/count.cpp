@@ -8,7 +8,7 @@ int main(int argc, char **argv)
   ros::init(argc, argv, "count_and_log");
   ros::NodeHandle nh;
 
-//SELECCIONAR SOLO UNA OPCIÓN, COMENTANDO LAS OTTRAS DOS
+//SELECCIONAR SOLO UNA OPCIÓN, COMENTANDO LAS OTRAS DOS
 
   // 1) Generate periodically log messages of varying severity
   
