@@ -1,17 +1,18 @@
-<?xml v e r s i o n ="1.0"? >
+<?xml version="1.0"?>
 <package>
-  <name>a g i t r </name>
-  <v e r s i o n >0.0.1 </ v e r s i o n >
-  <d e s c r i p t i o n >
-    Examples from A G e n t l e I n t r o d u c t i o n t o ROS
-  </ d e s c r i p t i o n >
-  <m a i n t a i n e r e m a i l="j o k a n e @ c s e . s c . edu">
-    Jason O' Kane
-  </m a i n t a i n e r >
-  <l i c e n s e >TODO</ l i c e n s e >
-  <b u i l d t o o l _ d e p e n d >c a t k i n </b u i l d t o o l _ d e p e n d >
+  <name>agitr</name>
+  <version>0.0.1</version>
+  <description>
+    Examples from A Gentle Introduction to ROS
+  </description>
+  <maintainer email="alba@todo.todo">
+    alba
+  </maintainer>
+  <license>TODO</license>
+  
+  <buildtool_depend>catkin</buildtool_depend>
   <build_depend>geometry_msgs</build_depend>
   <run_depend>geometry_msgs</run_depend>
-  <build_depend>t u r t l e s i m </build_depend>
-  <run_depend>t u r t l e s i m </run_depend>
+  <build_depend>turtlesim</build_depend>
+  <run_depend>turtlesim</run_depend>
 </package>
