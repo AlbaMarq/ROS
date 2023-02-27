@@ -1,0 +1,23 @@
+Para los programas de Hello ROS, Publicador y Suscriptor debemos seguir los mismos pasos para su ejecución:
+
+1) Creamos una carpeta donde trabajar
+2) Dentro de ella creamos un directorio llamado 'src'
+3) En el terminal, situados en el directorio 'src', vamos a crear un nuevo paquete (en nuestro caso, llamado agitr) con el comando:
+    >> catkin create pkg agitr
+    Esto nos creará el paquete agitr (en forma de carpeta) con dos archivos de configuración: CMakeLists.txt y package.xml
+4) Modificamos estos dos archivos como corresponda en cada programa (ver la carpeta correspondiente)
+5) Dentro de el paquete (agitr) creamos el archivo que contendrá el programa a ejecutar (.cpp)
+6) En nuestra carpeta de trabajo, la primera creada, vamos a contruir nuestro workspace:
+    >> catkin_make
+7) En esta misma carpeta, debemos ejecutar un script creado por catkin_make, que generará las variables que permitirán a ROS encontrar nuestro paquete y regenerar los ejecutables:
+    >> source devel/setup.zsh
+8) Por último, nos queda ejecutar nuestro programa:
+    8.1) Ejecutar el master:
+          >> roscore
+    8.2) Ejecutar los nodos necesarios a los que nos conectamos, en nuestros programas tenemos:
+          - Para el publicador y suscriptor:  
+              >> rosrun turtlesim turtlesim_node
+          - Para el suscriptor: 
+              >> rosrun turtlesim turtle_teleop_key
+    8.3) Ejecutar el programa:
+          >> rosrun agitr hell
