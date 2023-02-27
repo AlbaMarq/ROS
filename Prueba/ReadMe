@@ -1,4 +1,4 @@
-Para los programas de Hello ROS, Publicador y Suscriptor debemos seguir los mismos pasos para su ejecución:
+Para los programas de Hello ROS, Publicador, Suscriptor y Errores debemos seguir los mismos pasos para su ejecución:
 
 1) Creamos una carpeta donde trabajar
 2) Dentro de ella creamos un directorio llamado 'src'
