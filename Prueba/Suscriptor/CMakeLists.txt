@@ -14,7 +14,7 @@ catkin_package()
 include_directories(include ${catkin_INCLUDE_DIRS})
 
 # Declare the executable, along with its source files. If there are multiple executables, use multiple copies of this line
-add_executable(pubvel pubvel.cpp)
+add_executable(subpose subpose.cpp)
 
 # Specify libraries against which to link. Again, this line should be copied for each distinct executable in the package
-target_link_libraries(pubvel ${catkin_LIBRARIES})
+target_link_libraries(subpose ${catkin_LIBRARIES})
