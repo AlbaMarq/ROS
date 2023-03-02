@@ -20,4 +20,4 @@ Para los programas de Hello ROS, Publicador, Suscriptor y Errores debemos seguir
           - Para el suscriptor: 
               >> rosrun turtlesim turtle_teleop_key
     8.3) Ejecutar el programa:
-          >> rosrun agitr hell
+          >> rosrun agitr 'hello'
