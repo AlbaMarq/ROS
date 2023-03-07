@@ -3,7 +3,7 @@ Para los programas de Hello ROS, Publicador, Suscriptor y Errores debemos seguir
 1) Creamos una carpeta donde trabajar
 2) Dentro de ella creamos un directorio llamado 'src'
 3) En el terminal, situados en el directorio 'src', vamos a crear un nuevo paquete (en nuestro caso, llamado agitr) con el comando:
-    >> catkin create pkg agitr
+    >> catkin_create_pkg agitr
     Esto nos creará el paquete agitr (en forma de carpeta) con dos archivos de configuración: CMakeLists.txt y package.xml
 4) Modificamos estos dos archivos como corresponda en cada programa (ver la carpeta correspondiente)
 5) Dentro de el paquete (agitr) creamos el archivo que contendrá el programa a ejecutar (.cpp)
